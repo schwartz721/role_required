@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_login import LoginManager, login_required
-from ROLE_required import ROLE_required, not_ROLE
+from role_required import ROLE_required, not_ROLE
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret-key'
