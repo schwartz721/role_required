@@ -24,11 +24,15 @@ The @ROLE_required decorator includes the same functionality as flask-login's
 authorized aren't privileged are redirected to.
 
 Set Up (see app.py for an example of proper set up):
+
 -Add role_required.py to the flask app's directory where it can be accessed by
 the same file that instantiates flask_login.LoginManager.
+
 -From role_required import not_ROLE, and add a not_ROLE method to LoginManager.
+
 -Give LoginManager a not_ROLE_view attribute that is a string that indicates
 which view function to redirect authorized but unprivileged users to.
+
 -From role_required import ROLE_required wherever routes are defined, and
 decorate privileged routes.
 
