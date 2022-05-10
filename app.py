@@ -47,7 +47,7 @@ def not_ROLE():
             redirected here.<br>\
             Unauthorized users accessing an @ROLE_required view are redirected\
             to the login_view, so a @login_required decorator is not\
-            additionally needed on a @ROLL_required view."
+            additionally needed on a @ROLE_required view."
 
 
 # DO NOT INCLUDE THIS IN YOUR FLASK APP
